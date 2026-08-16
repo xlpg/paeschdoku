@@ -113,10 +113,10 @@
   .notes span{display:flex; align-items:center; justify-content:center;}
 
   /* ---------- Steuerung ---------- */
-  .pad{display:grid; grid-template-columns:repeat(9,1fr); gap:6px; margin-top:14px;}
+  .pad{display:grid; grid-template-columns:repeat(9,1fr); gap:6px; margin-top:16px;}
   .num{
-    aspect-ratio:1/1.15; background:var(--panel2); border:1px solid var(--line);
-    border-radius:10px; font-size:clamp(18px,5.5vw,24px); color:var(--text);
+    aspect-ratio:1/1.35; background:var(--panel2); border:1px solid var(--line);
+    border-radius:10px; font-size:clamp(20px,6vw,26px); color:var(--text);
     cursor:pointer; display:flex; align-items:center; justify-content:center;
     position:relative; font-weight:600;
   }
@@ -124,7 +124,7 @@
   .num:active{transform:translateY(1px);}
   .num .cnt{position:absolute; bottom:2px; right:4px; font-size:9px; color:var(--muted); font-weight:400;}
   .num.full{opacity:.35; pointer-events:none;}
-  .tools{display:grid; grid-template-columns:repeat(4,1fr); gap:8px; margin-top:10px;}
+  .tools{display:grid; grid-template-columns:repeat(4,1fr); gap:8px; margin-top:26px;}
   .tool{
     background:var(--panel2); border:1px solid var(--line); border-radius:10px;
     padding:11px 4px; font-size:13px; color:var(--text); cursor:pointer;
